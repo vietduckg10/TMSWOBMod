@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tmswob:block/slab_of_origin"
+    },
+    "type=double": {
+      "model": "tmswob:block/block_of_origin"
+    },
+    "type=top": {
+      "model": "tmswob:block/slab_of_origin_top"
+    }
+  }
+}

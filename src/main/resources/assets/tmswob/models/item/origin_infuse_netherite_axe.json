@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tmswob:items/origin_infuse_netherite_axe"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xox",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "tmswob:origin_shard"
+    },
+    "o": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "tmswob:origin_infuse_apple",
+    "count": 1
+  }
+}

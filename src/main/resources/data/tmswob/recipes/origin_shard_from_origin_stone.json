@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tmswob:origin_stone"
+    }
+  ],
+  "result": {
+    "item": "tmswob:origin_shard",
+    "count" : 4
+  }
+}

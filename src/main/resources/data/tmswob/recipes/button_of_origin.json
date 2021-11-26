@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tmswob:block_of_origin"
+    }
+  ],
+  "result": {
+    "item": "tmswob:button_of_origin"
+  }
+}

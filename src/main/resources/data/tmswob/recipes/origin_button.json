@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tmswob:origin_shard"
+    }
+  ],
+  "result": {
+    "item": "tmswob:origin_button"
+  }
+}

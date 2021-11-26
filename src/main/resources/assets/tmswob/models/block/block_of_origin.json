@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tmswob:blocks/block_of_origin"
+  }
+}

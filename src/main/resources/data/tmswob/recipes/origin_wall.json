@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "tmswob:origin_shard"
+    }
+  },
+  "result": {
+    "item": "tmswob:origin_wall",
+    "count": 6
+  }
+}

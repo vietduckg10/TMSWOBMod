@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "tmswob:block/origin_pressure_plate"
+    },
+    "powered=true": {
+      "model": "tmswob:block/origin_pressure_plate_down"
+    }
+  }
+}

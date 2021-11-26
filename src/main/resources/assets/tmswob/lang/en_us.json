@@ -1,0 +1,28 @@
+{
+  "itemGroup.TMSWOB" : "TMSWOB Items",
+  "block.tmswob.block_of_origin": "Block of Origin",
+  "block.tmswob.stairs_of_origin" : "Stairs of Origin",
+  "block.tmswob.slab_of_origin" : "Slab of Origin",
+  "block.tmswob.button_of_origin" : "Button of Origin",
+  "block.tmswob.wall_of_origin" : "Wall of Origin",
+  "block.tmswob.pressure_plate_of_origin" : "Pressure Plate of Origin",
+  "item.tmswob.origin_shard" : "Origin Shard",
+  "item.tmswob.origin_infuse_apple" : "Origin Infuse Apple",
+  "block.tmswob.origin_stone" : "Origin Stone",
+  "block.tmswob.origin_stairs" : "Origin Stairs",
+  "block.tmswob.origin_slab" : "Origin Slab",
+  "block.tmswob.origin_button" : "Origin Button",
+  "block.tmswob.origin_wall" : "Origin Wall",
+  "block.tmswob.origin_pressure_plate" : "Origin Pressure Plate",
+  "item.tmswob.origin_infuse_netherite_chestplate" : "Origin Infuse Netherite Chestplate",
+  "item.tmswob.origin_infuse_netherite_helmet" : "Origin Infuse Netherite Helmet",
+  "item.tmswob.origin_infuse_netherite_boots" : "Origin Infuse Netherite Boots",
+  "item.tmswob.origin_infuse_netherite_leggings" : "Origin Infuse Netherite Leggings",
+  "item.tmswob.origin_infuse_netherite_sword" : "Origin Infuse Netherite Sword",
+  "item.tmswob.origin_infuse_netherite_pickaxe" : "Origin Infuse Netherite Pickaxe",
+  "item.tmswob.origin_infuse_netherite_axe" : "Origin Infuse Netherite Axe",
+  "item.tmswob.origin_infuse_netherite_shovel" : "Origin Infuse Netherite Shovel",
+  "item.tmswob.origin_infuse_netherite_hoe" : "Origin Infuse Netherite Hoe",
+  "item.tmswob.bean_spawn_egg" : "Bean Spawn Egg"
+
+}

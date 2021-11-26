@@ -1,0 +1,9 @@
+{
+  "replace" : false,
+  "values" : [
+    "tmswob:origin_infuse_netherite_helmet",
+    "tmswob:origin_infuse_netherite_chestplate",
+    "tmswob:origin_infuse_netherite_leggings",
+    "tmswob:origin_infuse_netherite_boots"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  x",
+    " xx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "tmswob:origin_shard"
+    }
+  },
+  "result": {
+    "item": "tmswob:origin_stairs",
+    "count": 4
+  }
+}

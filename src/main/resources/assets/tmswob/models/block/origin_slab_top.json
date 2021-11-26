@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tmswob:blocks/origin_stone",
+    "top": "tmswob:blocks/origin_stone",
+    "side": "tmswob:blocks/origin_stone"
+  }
+}

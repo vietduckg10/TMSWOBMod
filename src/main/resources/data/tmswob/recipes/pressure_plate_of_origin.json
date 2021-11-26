@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "tmswob:block_of_origin"
+    }
+  },
+  "result": {
+    "item": "tmswob:pressure_plate_of_origin",
+    "count": 1
+  }
+}

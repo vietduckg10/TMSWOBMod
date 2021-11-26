@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "tmswob:blocks/block_of_origin"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tmswob:origin_wall",
+    "tmswob:wall_of_origin"
+  ]
+}

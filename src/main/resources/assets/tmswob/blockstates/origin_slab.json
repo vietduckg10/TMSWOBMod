@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tmswob:block/origin_slab"
+    },
+    "type=double": {
+      "model": "tmswob:block/origin_stone"
+    },
+    "type=top": {
+      "model": "tmswob:block/origin_slab_top"
+    }
+  }
+}

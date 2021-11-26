@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "tmswob:block_of_origin"
+  },
+  "result": "tmswob:origin_stone",
+  "experience": 1,
+  "cookingtime": 250
+}

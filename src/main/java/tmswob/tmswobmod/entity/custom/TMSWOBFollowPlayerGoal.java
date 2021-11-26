@@ -37,7 +37,7 @@ public class TMSWOBFollowPlayerGoal extends Goal {
     }
 
     private void findPlayer(){
-        List<PlayerEntity> playerEntityList = this.beanEntity.level.getEntitiesOfClass(PlayerEntity.class, this.beanEntity.getBoundingBox().inflate(0), playerEntity -> !playerEntity.isCreative() && !playerEntity.isSpectator());
+        List<PlayerEntity> playerEntityList = this.beanEntity.level.getEntitiesOfClass(PlayerEntity.class, this.beanEntity.getBoundingBox().inflate(10), playerEntity -> !playerEntity.isCreative() && !playerEntity.isSpectator());
         if (playerEntityList.size() > 0){
             this.playerEntity = playerEntityList.stream().min(Comparator.comparing(this.beanEntity::distanceTo)).get();
         }

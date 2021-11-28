@@ -22,7 +22,7 @@ public class TMSWOBFollowPlayerGoal extends Goal {
     @Override
     public boolean canUse() {
         this.findPlayer();
-        return this.playerEntity != null && this.playerEntity.isAlive();
+        return this.playerEntity != null && this.playerEntity.isAlive() && !playerEntity.isCreative() && !playerEntity.isSpectator();
     }
 
     @Override

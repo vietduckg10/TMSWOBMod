@@ -36,7 +36,7 @@ public class BeanEntity extends CreatureEntity {
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return SoundEvents.TRIPWIRE_CLICK_ON;
+        return SoundEvents.BAT_AMBIENT;
     }
 
     @Override
@@ -51,7 +51,7 @@ public class BeanEntity extends CreatureEntity {
 
     @Override
     protected void playStepSound(BlockPos p_180429_1_, BlockState p_180429_2_) {
-        this.playSound(SoundEvents.ANVIL_PLACE, 0.1f, 0.1f);
+        this.playSound(SoundEvents.SHEEP_STEP, 0.1f, 0.1f);
         super.playStepSound(p_180429_1_, p_180429_2_);
     }
 }

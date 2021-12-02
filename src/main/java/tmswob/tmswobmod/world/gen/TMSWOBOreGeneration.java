@@ -11,7 +11,7 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.TopSolidRangeConfig;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 
-public class ModOreGeneration {
+public class TMSWOBOreGeneration {
     public static void generateOres(final BiomeLoadingEvent event){
         for (OreType ore : OreType.values()){
             OreFeatureConfig oreFeatureConfig = new OreFeatureConfig(

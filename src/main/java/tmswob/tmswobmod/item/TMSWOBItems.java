@@ -92,7 +92,7 @@ public class TMSWOBItems {
             )
     );
     public static final RegistryObject<TMSWOBSpawnEggItem> BEAN_SPAWN_EGG = ITEMS.register("bean_spawn_egg", () ->
-            new TMSWOBSpawnEggItem(TMSWOBEntityTypes.BEAN, 0x464F56, 0x1D6336,
+            new TMSWOBSpawnEggItem(TMSWOBEntityTypes.BEAN, 0x4ffc70, 0x1a1a1b,
                     new Item.Properties().tab(TMSWOBItemGroup.TMSWOB_GROUP)
             )
     );

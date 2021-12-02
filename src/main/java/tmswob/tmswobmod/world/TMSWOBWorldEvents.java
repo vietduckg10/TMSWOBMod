@@ -4,12 +4,14 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import tmswob.tmswobmod.TMSWOBMod;
-import tmswob.tmswobmod.world.gen.ModOreGeneration;
+import tmswob.tmswobmod.world.gen.TMSWOBOreGeneration;
+import tmswob.tmswobmod.world.gen.TMSWOBEntityGeneration;
 
 @Mod.EventBusSubscriber(modid = TMSWOBMod.MODID)
-public class ModWorldEvents {
+public class TMSWOBWorldEvents {
     @SubscribeEvent
     public static void biomeLoadingEvent(final BiomeLoadingEvent event){
-        ModOreGeneration.generateOres(event);
+        TMSWOBOreGeneration.generateOres(event);
+        TMSWOBEntityGeneration.onEntitySpawn(event);
     }
 }

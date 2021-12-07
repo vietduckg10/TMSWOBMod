@@ -20,6 +20,7 @@ import org.apache.logging.log4j.Logger;
 import tmswob.tmswobmod.block.TMSWOBBlocks;
 import tmswob.tmswobmod.entity.TMSWOBEntityTypes;
 import tmswob.tmswobmod.entity.render.BeanRenderer;
+import tmswob.tmswobmod.entity.render.BeanWithHandRenderer;
 import tmswob.tmswobmod.item.TMSWOBItems;
 
 import java.util.stream.Collectors;
@@ -60,6 +61,7 @@ public class TMSWOBMod {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().options);
         RenderingRegistry.registerEntityRenderingHandler(TMSWOBEntityTypes.BEAN.get(), BeanRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(TMSWOBEntityTypes.BEAN_WITH_HAND.get(), BeanWithHandRenderer::new);
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

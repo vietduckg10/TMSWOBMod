@@ -15,6 +15,7 @@ public class TMSWOBEventBusEvents {
     @SubscribeEvent
     public static void addEntityAttributes(EntityAttributeCreationEvent event) {
         event.put(TMSWOBEntityTypes.BEAN.get(), BeanEntity.createAttributes().build());
+        event.put(TMSWOBEntityTypes.BEAN_WITH_HAND.get(), BeanEntity.createAttributes().build());
     }
 
     @SubscribeEvent

@@ -96,4 +96,9 @@ public class TMSWOBItems {
                     new Item.Properties().tab(TMSWOBItemGroup.TMSWOB_GROUP)
             )
     );
+    public static final RegistryObject<TMSWOBSpawnEggItem> BEAN_WITH_HAND_SPAWN_EGG = ITEMS.register("bean_with_hand_spawn_egg", () ->
+            new TMSWOBSpawnEggItem(TMSWOBEntityTypes.BEAN_WITH_HAND, 0x4ffc70, 0x026214,
+                    new Item.Properties().tab(TMSWOBItemGroup.TMSWOB_GROUP)
+            )
+    );
 }

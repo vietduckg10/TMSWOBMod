@@ -23,6 +23,6 @@
   "item.tmswob.origin_infuse_netherite_axe" : "Origin Infuse Netherite Axe",
   "item.tmswob.origin_infuse_netherite_shovel" : "Origin Infuse Netherite Shovel",
   "item.tmswob.origin_infuse_netherite_hoe" : "Origin Infuse Netherite Hoe",
-  "item.tmswob.bean_spawn_egg" : "Bean Spawn Egg"
-
+  "item.tmswob.bean_spawn_egg" : "Bean Spawn Egg",
+  "item.tmswob.bean_with_hand_spawn_egg" : "Bean With Hand Spawn Egg"
 }
